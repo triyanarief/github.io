@@ -15,6 +15,7 @@ body{
   background-color: white;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-bottom: 3px solid black;
 }
 
 .week{
@@ -32,17 +33,28 @@ body{
   font-style: italic;
 }
 
+.kotak{
+  perspective: 100px;
+  perspective-origin: 50% 50%;
+  margin-left: 25px;
+}
+
 #one, #two, #three, #four, #five{
   background-color: white;
   width: 600px;
+  perspective: 100px;
+  perspective-origin: 50% 50%;
   color: black;
   border-top-left-radius: 20%;
   border-bottom-right-radius: 20%;
-  text-align: center;
-  padding: 12px 5px;
+  padding: 12px 10px;
+  border: 1px solid black;
+  transform: translateZ(1px);
+  transition: transform 1s;
 }
 
 #one:hover, #two:hover, #three:hover, #four:hover, #five:hover{
-  width: 650px;
-  transition: 1s;
+  /*width: 650px;*/
+  transform: translateZ(3px);
+  /*transition: transform 1s;*/
 }
