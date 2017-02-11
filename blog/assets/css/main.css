@@ -1291,7 +1291,7 @@
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		padding: 8em 0 6em 0;
+		padding: 2em 0 8em 0;
 		background-image: url("../../images/pic03.jpg");
 		background-size: cover;
 		background-position: center;
@@ -1583,3 +1583,40 @@ bootstrap.min.css:5
     text-align: center;
     white-space: nowrap;
 }
+
+* {margin:0; padding:0;}
+
+ nav {
+ margin:auto;
+ margin-top: 10px;
+ margin-left: 750px;
+ text-align: center;
+ width: 100%;
+ font-family: arial;
+ }
+ nav ul {
+ background:black;
+ /*opacity: 0.1;*/
+ padding: 0 10px;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 100%;
+ }
+ nav ul li{
+ float:left;
+ }
+
+ nav ul li:hover{
+ background:#37988e;
+ }
+
+ nav ul li:hover a{
+ color:#000;
+ }
+
+ nav ul li a{
+ display: block;
+ padding: 25px;
+ color: #fff;
+ text-decoration: none;
