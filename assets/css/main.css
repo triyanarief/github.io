@@ -1617,3 +1617,16 @@ bootstrap.min.css:5
  color: #fff;
  text-decoration: none;
 }
+
+#other {
+	text-align: center;
+}
+
+#other-left {
+	text-align: left;
+	float: left;
+}
+
+#other-right {
+	text-align: right;
+}
